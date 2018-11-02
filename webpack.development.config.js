@@ -3,6 +3,7 @@ const MiniCSSExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 
+
 module.exports = {
     entry: {main: './src/index.js'},
     output: {
@@ -38,6 +39,6 @@ module.exports = {
             hash: false,
             template: './src/index.html',
             filename: 'index.html'
-        }) 
+        })
     ]
 };
