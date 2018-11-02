@@ -14,5 +14,5 @@ npm run build-release
 npm test
 
 ## Run localhost
-npm run server
+npm run dev-server
 
