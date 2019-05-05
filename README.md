@@ -14,7 +14,7 @@ npm run lint
 npm test
 
 ## Run localhost
-npm run dev-server
+npm run watch
 
 ## Create developer build - no caching or uglifyjs
 npm run build-dev
