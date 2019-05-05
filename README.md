@@ -4,15 +4,25 @@ Webpack 4 with AVA Template
 ## To Install
 npm install
 
-## Create developer build - no caching or uglifyjs
-npm run build-dev
+## Initialize Lint
+npm run lint-init
 
-## Create production build -caching and uglifyjs
-npm run build-release
+## Run Lint
+npm run lint
 
 ## Run AVA Tests
 npm test
 
 ## Run localhost
 npm run dev-server
+
+## Create developer build - no caching or uglifyjs
+npm run build-dev
+
+## Create production build -caching and uglifyjs
+npm run build-release
+
+
+
+
 
